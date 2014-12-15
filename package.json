@@ -1,7 +1,7 @@
 {
   "name": "noflo-stringtool",
   "description": "String manipulation components.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Alfredo Consebola",
     "email": "sistemas.alfredo@gmail.com",
@@ -34,7 +34,7 @@
     "grunt-noflo-manifest": "~0.1.11",
     "grunt-noflo-browser": "^0.1.1"
   },
-  "keywords": [],
+  "keywords": ["noflo", "strings", "pipeline", "dataflow"],
   "noflo": {
     "components": {
       "Tool": "components/Tool.coffee"
