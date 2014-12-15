@@ -1,0 +1,26 @@
+{
+  "name": "noflo-stringtool",
+  "description": "String manipulation components.",
+  "author": "Alfredo Consebola <sistemas.alfredo@gmail.com>",
+  "repo": "alpha/noflo-stringtool",
+  "version": "0.1.0",
+  "keywords": [],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "remotes": [
+    "https://raw.githubusercontent.com"
+  ],
+  "scripts": [
+    "index.js",
+    "components/Tool.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "Tool": "components/Tool.coffee"
+    }
+  }
+}
