@@ -1,7 +1,7 @@
 {
   "name": "noflo-stringtool",
   "description": "String manipulation components.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "Alfredo Consebola",
     "email": "sistemas.alfredo@gmail.com",

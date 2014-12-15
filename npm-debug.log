@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.32
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /root/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /root/.npm/1f1177db-tar.lock
+15 silly lockFile a3e13a87-59018-0-5013083638623357-tmp-tgz tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz
+16 verbose lock tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz /root/.npm/a3e13a87-59018-0-5013083638623357-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile a3e13a87-59018-0-5013083638623357-tmp-tgz tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz
+20 silly lockFile a3e13a87-59018-0-5013083638623357-tmp-tgz tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz
+21 verbose tar unpack /root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz
+22 silly lockFile 7a703316-59018-0-5013083638623357-package tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package
+23 verbose lock tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package /root/.npm/7a703316-59018-0-5013083638623357-package.lock
+24 silly lockFile a3e13a87-59018-0-5013083638623357-tmp-tgz tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz
+25 verbose lock tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz /root/.npm/a3e13a87-59018-0-5013083638623357-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry .npmignore
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry component.json
+32 silly gunzTarPerm extractEntry Gruntfile.coffee
+33 silly gunzTarPerm extractEntry LICENSE-MIT
+34 silly gunzTarPerm extractEntry spec/Tool.coffee
+35 silly gunzTarPerm modified mode [ 'spec/Tool.coffee', 509, 493 ]
+36 silly gunzTarPerm extractEntry spec/runner.html
+37 silly gunzTarPerm modified mode [ 'spec/runner.html', 509, 493 ]
+38 silly gunzTarPerm extractEntry test/Tool.coffee
+39 silly gunzTarPerm extractEntry components/Tool.coffee
+40 silly gunzTarPerm modified mode [ 'components/Tool.coffee', 511, 493 ]
+41 silly lockFile 7a703316-59018-0-5013083638623357-package tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package
+42 silly lockFile 7a703316-59018-0-5013083638623357-package tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package
+43 silly lockFile a3e13a87-59018-0-5013083638623357-tmp-tgz tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz
+44 silly lockFile a3e13a87-59018-0-5013083638623357-tmp-tgz tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/tmp.tgz
+45 verbose tar pack [ '/root/.npm/noflo-stringtool/0.1.1/package.tgz',
+45 verbose tar pack   '/root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package' ]
+46 verbose tarball /root/.npm/noflo-stringtool/0.1.1/package.tgz
+47 verbose folder /root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package
+48 silly lockFile 7a703316-59018-0-5013083638623357-package tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package
+49 verbose lock tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package /root/.npm/7a703316-59018-0-5013083638623357-package.lock
+50 silly lockFile 10a07517-flo-stringtool-0-1-1-package-tgz tar:///root/.npm/noflo-stringtool/0.1.1/package.tgz
+51 verbose lock tar:///root/.npm/noflo-stringtool/0.1.1/package.tgz /root/.npm/10a07517-flo-stringtool-0-1-1-package-tgz.lock
+52 silly lockFile 7a703316-59018-0-5013083638623357-package tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package
+53 silly lockFile 7a703316-59018-0-5013083638623357-package tar:///root/tmp/npm-8668-SQXnsgBe/1418675859018-0.5013083638623357/package
+54 silly lockFile 10a07517-flo-stringtool-0-1-1-package-tgz tar:///root/.npm/noflo-stringtool/0.1.1/package.tgz
+55 silly lockFile 10a07517-flo-stringtool-0-1-1-package-tgz tar:///root/.npm/noflo-stringtool/0.1.1/package.tgz
+56 silly lockFile 0702aa53-m-noflo-stringtool-0-1-1-package /root/.npm/noflo-stringtool/0.1.1/package
+57 verbose lock /root/.npm/noflo-stringtool/0.1.1/package /root/.npm/0702aa53-m-noflo-stringtool-0-1-1-package.lock
+58 silly lockFile 0702aa53-m-noflo-stringtool-0-1-1-package /root/.npm/noflo-stringtool/0.1.1/package
+59 silly lockFile 0702aa53-m-noflo-stringtool-0-1-1-package /root/.npm/noflo-stringtool/0.1.1/package
+60 verbose tar unpack /root/.npm/noflo-stringtool/0.1.1/package.tgz
+61 silly lockFile 86c9ffe7-m-noflo-stringtool-0-1-1-package tar:///root/.npm/noflo-stringtool/0.1.1/package
+62 verbose lock tar:///root/.npm/noflo-stringtool/0.1.1/package /root/.npm/86c9ffe7-m-noflo-stringtool-0-1-1-package.lock
+63 silly lockFile 10a07517-flo-stringtool-0-1-1-package-tgz tar:///root/.npm/noflo-stringtool/0.1.1/package.tgz
+64 verbose lock tar:///root/.npm/noflo-stringtool/0.1.1/package.tgz /root/.npm/10a07517-flo-stringtool-0-1-1-package-tgz.lock
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm extractEntry .npmignore
+68 silly gunzTarPerm extractEntry README.md
+69 silly gunzTarPerm extractEntry index.js
+70 silly gunzTarPerm extractEntry Gruntfile.coffee
+71 silly gunzTarPerm extractEntry LICENSE-MIT
+72 silly gunzTarPerm extractEntry component.json
+73 silly gunzTarPerm extractEntry components/Tool.coffee
+74 silly gunzTarPerm extractEntry spec/Tool.coffee
+75 silly gunzTarPerm extractEntry spec/runner.html
+76 silly gunzTarPerm extractEntry test/Tool.coffee
+77 silly lockFile 86c9ffe7-m-noflo-stringtool-0-1-1-package tar:///root/.npm/noflo-stringtool/0.1.1/package
+78 silly lockFile 86c9ffe7-m-noflo-stringtool-0-1-1-package tar:///root/.npm/noflo-stringtool/0.1.1/package
+79 silly lockFile 10a07517-flo-stringtool-0-1-1-package-tgz tar:///root/.npm/noflo-stringtool/0.1.1/package.tgz
+80 silly lockFile 10a07517-flo-stringtool-0-1-1-package-tgz tar:///root/.npm/noflo-stringtool/0.1.1/package.tgz
+81 verbose chmod /root/.npm/noflo-stringtool/0.1.1/package.tgz 644
+82 verbose chown /root/.npm/noflo-stringtool/0.1.1/package.tgz [ 0, 0 ]
+83 silly lockFile 3a52ce78- .
+84 silly lockFile 3a52ce78- .
+85 silly publish { name: 'noflo-stringtool',
+85 silly publish   description: 'String manipulation components.',
+85 silly publish   version: '0.1.1',
+85 silly publish   author:
+85 silly publish    { name: 'Alfredo Consebola',
+85 silly publish      email: 'sistemas.alfredo@gmail.com',
+85 silly publish      url: 'http://flowbased.tk' },
+85 silly publish   repository:
+85 silly publish    { type: 'git',
+85 silly publish      url: 'git://github.com/alfa256/noflo-stringtool.git' },
+85 silly publish   licenses: [ { type: 'MIT', url: 'undefined/blob/master/LICENSE-MIT' } ],
+85 silly publish   scripts: {},
+85 silly publish   dependencies: { noflo: '~0.5.0' },
+85 silly publish   devDependencies:
+85 silly publish    { grunt: '~0.4.1',
+85 silly publish      'grunt-contrib-coffee': '~0.10.1',
+85 silly publish      'grunt-coffeelint': '~0.0.10',
+85 silly publish      'grunt-cafe-mocha': '~0.1.12',
+85 silly publish      chai: '~1.9.0',
+85 silly publish      mocha: '~1.21.0',
+85 silly publish      'grunt-mocha-phantomjs': '~0.2.2',
+85 silly publish      'grunt-contrib-uglify': '~0.2.0',
+85 silly publish      'grunt-contrib-watch': '~0.6.1',
+85 silly publish      'grunt-noflo-manifest': '~0.1.11',
+85 silly publish      'grunt-noflo-browser': '^0.1.1' },
+85 silly publish   keywords: [ 'noflo', 'strings', 'pipeline', 'dataflow' ],
+85 silly publish   noflo: { components: { Tool: 'components/Tool.coffee' } },
+85 silly publish   readme: '# noflo-stringtool\n\nString manipulation components.\n',
+85 silly publish   readmeFilename: 'README.md',
+85 silly publish   bugs: { url: 'https://github.com/alfa256/noflo-stringtool/issues' },
+85 silly publish   _id: 'noflo-stringtool@0.1.1',
+85 silly publish   dist: { shasum: '6eefc0669587552f30cf7cb09712890c2f60fbd6' },
+85 silly publish   _from: '.' }
+86 verbose url raw noflo-stringtool
+87 verbose url resolving [ 'https://registry.npmjs.org/', './noflo-stringtool' ]
+88 verbose url resolved https://registry.npmjs.org/noflo-stringtool
+89 info trying registry request attempt 1 at 17:37:39
+90 http PUT https://registry.npmjs.org/noflo-stringtool
+91 http 201 https://registry.npmjs.org/noflo-stringtool
+92 verbose url raw noflo-stringtool
+93 verbose url resolving [ 'https://registry.npmjs.org/', './noflo-stringtool' ]
+94 verbose url resolved https://registry.npmjs.org/noflo-stringtool
+95 info trying registry request attempt 1 at 17:37:40
+96 http GET https://registry.npmjs.org/noflo-stringtool
+97 http 200 https://registry.npmjs.org/noflo-stringtool
+98 error publish fail Cannot publish over existing version.
+98 error publish fail Update the 'version' field in package.json and try again.
+98 error publish fail
+98 error publish fail If the previous version was published in error, see:
+98 error publish fail     npm help unpublish
+98 error publish fail
+98 error publish fail To automatically increment version numbers, see:
+98 error publish fail     npm help version
+99 error System Linux 3.11.10-301.fc20.x86_64
+100 error command "node" "/usr/bin/npm" "publish"
+101 error cwd /home/alpha/Dev/noflo-stringtool
+102 error node -v v0.10.32
+103 error npm -v 1.3.6
+104 error code EPUBLISHCONFLICT
+105 verbose exit [ 1, true ]
